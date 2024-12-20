@@ -1,285 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-h1,
-body,
-h4,
-h2,
-p,
-div {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background: #000000;
-}
 
-nav {
-  border-bottom: 1px solid #ffffff;
-  padding: 16px 48px;
-  display: flex;
-  justify-content: space-between;
-}
-nav div {
-  display: flex;
-  gap: 32px;
-}
-nav h1 {
-  font-family: Sarpanch;
-  font-size: 42px;
-  font-weight: 500;
-  line-height: 42px;
-  letter-spacing: -0.04em;
-  text-align: left;
-  color: white;
-}
-nav p {
-font-family: Rajdhani;
-font-size: 28px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: -0.01em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-width: Hug (402px)px;
-height: Hug (32px)px;
-gap: 32px;
-opacity: 0px;
-color: white;
-
-    
-}
-
-header { 
-  padding: 120px 48px 72px 48px;
-  position: relative;
-   
-}
-header h1 {
-    
-position: relative;
-left: 50%;
-transform: translateX(-50%);
-    font-family: Rajdhani;
-    font-size: 120px;
-    font-weight: 400;
-    line-height: 120px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: white;
-    width: 1344px;
-height: 240px;
-gap: 0px;
-opacity: 0px;
-margin-left: 13 vw;
-
-
-
-}
-
-.projects {
-  padding: 48px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 48px;
-}
-.projects img {
-  margin-bottom: 8px;
-}
-.projects h1 {
-    font-family: Rajdhani;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #ffffff;
-    
-}
-.projects p {
-    font-family: Rajdhani;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #ffffff;
-    
-}
-
-.image {
-  padding: 48px 48px 24px 48px;
-}
-.feedback {width: 672px;
-    height: 208px;
-    gap: 0px;
-    opacity: 0px;
-    
-
-}
-.feedback h1 {font-family: Rajdhani;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: -0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #ffffff;
-    width: 672px;
-height: 208px;
-gap: 0px;
-opacity: 0px;
-
-    
-}
-
-
-
-
- footer {
-  display: flex;
-  line-height: 1.94vw; 
-  padding: 0.69vw; 
-  justify-content: space-between;
-}
-
-footer p {
-  text-align: left;
-  font-weight: 400;
-  font-size: 1.39vw;
-  font-family: 'Rajdhani',sans-serif; 
-  color:rgba(255, 255, 255, 0.6);
-}
-
-#butt {
-  background-color: transparent;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 500;
-  border-radius: 0.56vw; 
-  font-size: 1.11vw; 
-  cursor: pointer;
-  border: 0.07vw solid rgba(255, 255, 255, 0.16); 
-  height: 2.5vw; 
-  color:white;
-  margin-right:2.5vw;
-  padding:0.66vw;
-  text-align: center;
-}
-
-#butt:hover {
-  background-color: #f2f2f2;
-
-}
-.contactme{width: Fill (1,344px)px;
-    height: Hug (152px)px;
-    padding: 48px 0px 48px 0px;
-    gap: 48px;
-    border: 0px 0px 1px 0px;
-    opacity: 0px;
-    
-padding: 48px 0px 48px 0px;
-gap: 48px;
-border: 0px 0px 1px 0px;
-opacity: 0px;
-display: flex;
-justify-content: space-between;
-
-}
-.contactme h1{
-    font-family: Rajdhani;
-font-size: 28px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: -0.01em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #ffffff;
-
-}
-.contactme p{
-    font-family: Rajdhani;
-font-size: 17px;
-font-weight: 500;
-line-height: 28px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #ffffff;
-width: 640px;
-height: 56px;
-gap: 0px;
-opacity: 0px;
-
-
-
-}
-
-.end {
-  padding: 6.67vw 1.67vw;  
-  text-align: center;
-}
-
-label {
-  font-size: 3.36vw; 
-  font-weight: 400;
-  font-family: "Rajdhani",sans-serif;
-  color: white;
-}
-
-#no{
-  margin-top: 3.06vw; 
-  margin-left:0.4vw;
-  width: 1.5%;
-  max-width: 27.78vw;  
-  height: 2.22vw;  
-  background-color: transparent;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 1.04vw;  
-  color:rgba(255, 255, 255, 0.36);
-  text-align: center;
-  line-height: 1.39vw;  
-  padding: 0.56vw 0.83vw;  
-  border-radius: 0.56vw;  
-  border: 0.07vw solid white;  
-}
-
-#subs {
-  margin-top:2vw;
-  height: 3vw;  
-  width:30%;
-  background-color: #1457FF;
-
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 2.04vw;  
-  font-weight: 500;
-  padding: 0.56vw 0.83vw;  
-  border-radius: 0.41vw;  
-  color: white;
-  cursor: pointer;
-  border: none;
-  margin-left: 0.56vw;  
-}
-#skip {
-  margin-top:1vw;
-  height: 3vw;  
-  width:30%;
-  background-color:transparent;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 2.04vw;  
-  font-weight: 500;
-  padding: 0.56vw 0.83vw;  
-  border-radius: 0.41vw;  
-  color: #5A83ED;
-
-  cursor: pointer;
-  border: none;
-  margin-left: 0.56vw;  
-}  */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 h1, body, h4, h2, p, div {
@@ -289,8 +8,8 @@ h1, body, h4, h2, p, div {
 
 body {
   background: #000000;
-  color: white; /* Default color for visibility */
-  font-family: 'Rajdhani', sans-serif; /* Default font */
+  color: white; 
+  font-family: 'Rajdhani', sans-serif; 
 }
 
 nav {
@@ -324,7 +43,7 @@ nav p {
   text-align: left;
   text-decoration: none;
   color: white;
-  opacity: 1; /* Ensure text is visible */
+  opacity: 1;
 }
 
 header {
@@ -344,7 +63,7 @@ header h1 {
   text-align: center;
   color: white;
   width: 93.33vw;
-  opacity: 1; /* Ensure text is visible */
+  opacity: 1;
 }
 
 .projects {
@@ -384,7 +103,7 @@ header h1 {
   width: 46.67vw;
   height: 14.44vw;
   gap: 0;
-  opacity: 1; /* Ensure text is visible */
+  opacity: 1; 
 }
 
 .feedback h1 {
@@ -437,7 +156,7 @@ footer p {
   padding: 3.33vw 0;
   gap: 3.33vw;
   border-top: 0.07vw solid #ffffff;
-  opacity: 1; /* Ensure text is visible */
+  opacity: 1;
   display: flex;
   justify-content: space-between;
 }
